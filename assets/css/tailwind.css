@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  label {
+    @apply text-sm;
+  }
+  label::after {
+    content: ":";
+    display: inline;
+  }
+  input {
+    @apply py-1 px-2;
+    @apply border;
+  }
+}
